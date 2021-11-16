@@ -1,0 +1,198 @@
+<!--
+    JSON
+    ****
+        JSON Stands for JavaScript Object Notation
+
+        JSON also called as JavaScript Objects
+
+        JSON, used to transer the data over the network.
+
+        JSON is light weight
+
+        Objects --- {}
+
+        Arrays  ---- []
+
+        data    ---- key & value pairs
+-->
+
+
+<!--
+<script>
+    let obj = {
+        "sub_one":"Angular13",
+        "sub_two":"NodeJS",
+        "sub_three":"MongoDB"
+    };
+    console.log( obj.sub_one, obj.sub_two, obj.sub_three );             //Angular13 NodeJS MongoDB
+</script>
+-->
+
+
+<!--
+<script>
+    let obj = {
+        123 : "Hello_1",
+        456 : "Hello_2",
+        789 : "Hello_3"
+    };
+    console.log(
+        obj[123],
+        obj[456],
+        obj[789]
+    );                          //Hello_1 Hello_2 Hello_3
+</script>
+-->
+
+
+<!--
+<script>
+    let obj = {
+        "key1" : "value1",
+        "key1" : "value2",
+        "key1" : "value3"
+    };
+    console.log( obj.key1 );                //value3
+</script>
+-->
+
+
+<!--
+<script>
+    let obj = {
+        "key1" : "value1",
+        "key2" : "value1",
+        "key3" : "value1"
+    };
+    console.log( obj.key1, obj.key2, obj.key3 );            //value1 value1 value1
+</script>
+-->
+
+
+<!--
+<script>
+    let obj = {
+        "sub_one" : "Angular13",
+        "sub_two" : "NodeJS",
+        "sub_three" : "MongoDB"
+    };
+
+    //loop (iterations)
+    //for....in loop
+    //ES6
+    for(let key in obj){
+        console.log(obj[key]);
+    }
+</script>
+-->
+
+<!--
+<script>
+    let obj1 = {"key1":"Angular13"};
+
+    let obj2 = {"key2" : "NodeJS"};
+
+    let obj3 = {"key3" : "MongoDB"};
+
+    let obj4 = {...obj1,...obj2,...obj3};
+
+    console.log(obj4);              //{key1: 'Angular13', key2: 'NodeJS', key3: 'MongoDB'}
+</script>
+-->
+
+
+
+<!--
+<script>
+    //deep cloning
+    let obj1 = {"key1":"Hello_1"};
+
+    let ditto = {...obj1};
+
+    obj1.key2 = "Hello_2";
+
+    ditto.key2 = "Hello_3";
+
+    console.log(obj1);                  //{key1: 'Hello_1', key2: 'Hello_2'}
+
+    console.log(ditto);                 //{key1: 'Hello_1', key2: 'Hello_3'}
+</script>
+-->
+
+<style>
+    .parent{
+        display: inline-block;
+    }
+    img{
+        width: 200px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px;
+        background-color: #c0c0c0c4;
+    }
+</style>
+
+
+<script>
+   let arr = [
+       {"name":"p_one","image":"https://mernclassbucket.s3.us-east-2.amazonaws.com/p1.jpg"},
+       {"name":"p_two","image":"https://mernclassbucket.s3.us-east-2.amazonaws.com/p2.jpg"},
+       {"name":"p_three","image":"https://mernclassbucket.s3.us-east-2.amazonaws.com/p3.jpg"},
+       {"name":"p_four","image":"https://mernclassbucket.s3.us-east-2.amazonaws.com/p4.jpg"},
+       {"name":"p_five","image":"https://mernclassbucket.s3.us-east-2.amazonaws.com/p5.jpg"},
+       {"name":"p_six","image":"https://mernclassbucket.s3.us-east-2.amazonaws.com/p6.jpg"}
+   ];
+
+   //loop
+   //forEach()
+   arr.forEach((element,index)=>{
+        document.write(`
+            <div class='parent'>
+                <img src=${element.image} >    
+            </div>
+        `);
+   });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

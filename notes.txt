@@ -1,0 +1,416 @@
+Syllabus
+********
+
+JavaScript and TypeScript
+
+	Variables
+
+	Functions
+
+		Arrow Functions
+
+		Default Parameters in Functions
+
+	Arrays
+
+	JSON
+	
+	Promises
+
+	CallBacks
+
+
+1) Introduction to Angular
+
+
+
+2) Installation of Angular
+
+
+3) Components in Angular
+
+
+4) Communication Between Components
+
+
+	- @Input()
+
+	- @Output()
+
+	- @ViewChild()
+
+	- @ViewChildren()
+
+
+
+5) State Management in Angular
+
+	NgRx library
+
+
+
+6) MEAN Stack Development
+
+	M - MongoDB
+
+	E - ExpressJS     GET,POST,PUT,DELETE
+
+	A - Angular
+
+	N - NodeJS
+
+
+7) Single Page Applications
+
+	- Routing
+
+	- Authentication
+
+		CanActivate
+
+		CanDeactivate
+
+		CanActivateChild
+
+		CanLoad
+
+
+8) Asynchronous Calls
+
+	RxJS 
+
+	Reactive Extension JavaScript
+
+
+
+9) Directives
+
+	1) Predefined Directives
+
+	2) Custom Directives
+
+
+10) Pipes
+
+	1) Predefined Pipes
+
+	2) Custom Pipes
+	
+
+11) Forms With Validations
+
+	1) Template Driven Forms
+
+	2) Model Driven Forms
+
+
+
+12) Project
+
+
+13) Cloud Deployment
+
+	AWS Deployment
+
+	Heroku Deployment
+
+
+14) Payment Gateways Integrations
+
+	- Paypal Intregration
+
+	- Credit Card Integration
+
+	- Phonepe / Google Pay Integration
+
+
+15) Unit Test Cases
+
+	karma with jasmine
+
+
+
+
+
+Day-1
+*****
+	JavaScript is Scripting Language.
+
+	we can execute JavaScript in two ways.
+
+		1) Intrepreter
+
+		2) node tool
+
+	Intrepreter present in Browsers.
+
+		Ex.
+			Google Chrome
+
+			Firefox
+
+			Netscape
+
+			Opera
+
+	node tool present in "NodeJS"
+
+	we will save the JavaScript files with ".js" extension
+
+	we will include javascript to the webpages by using <script> tag.
+
+	by default javascript execution is Synchronous.
+	
+	JavaScript Released by Netscape.
+
+	Current Version of JavaScript is ES13
+
+	ES Stands for ECMA Script.
+
+	JavaScript, used to build the Angular,React,Node,VueJS,......
+
+	JavaScript wont follows the OOPS.
+
+	Visual Studio Code is Suggestable IDE to build the JavaScript Applications.
+
+	Visual Studio Code also called as "VSCode".
+
+	"VSCode" IDE Released by Microsoft and Open Source IDE.	
+
+	Vendor Provided predefined Objects
+
+		Ex.
+			console
+			
+			window
+
+			document
+
+			---
+			---
+			---
+
+	JavaScript we can call Object Based Scripting Language.
+
+	Superset of JavaScript called as TypeScript.
+
+	TypeScript Relesed by Microsoft.
+
+
+	****************************************************************************************
+	JavaScript						TypeScript
+	****************************************************************************************
+	
+	Scripting Language					Programming Language
+
+	Netscape						Microsoft
+
+	wont follows OOPS					follows OOPS
+
+	Object Based Scripting					Object Oriented
+	Language
+	Ex.							Ex.
+		window						inheritance
+		document					polymorphsim						
+		console						abstraction
+		---						----
+		---						----
+		---						----
+
+	we will save the javascript files			we will save the typescript
+	.js extension						files with ".ts" extension
+	****************************************************************************************
+	
+
+Installation of Softwares
++++++++++++++++++++++++++
+
+1) download and install NodeJS
+
+	"node" is the tool, used to execute the JavaScript
+
+website : https://nodejs.org/en/download/
+
+file    : node-v16.13.0-x64.msi
+
+
+
+2) download and install Visual Studio Code
+
+website : https://code.visualstudio.com/docs/?dv=win
+
+file    : VSCodeUserSetup-x64-1.62.1.exe
+
+
+Execution of JavaScript
++++++++++++++++++++++++
+
+> node demo.js
+
+
+Variables
+*********
+	variables are used to store the data
+
+	Ex.
+			string
+
+			number
+
+			boolean
+
+			arrays
+
+			Objects
+
+	we will declare variables by using "var", "let" and "const" keyword.
+
+	"let" and "const" keywords introduced in ES6.
+
+	ES Stands for ECMA Script.
+
+	variables should contain a-z , A-Z , 0-9, $ and _
+
+	variables should not start with digits.
+
+	Syntax
+	******
+	var / let / const variablename = value;
+
+	Ex.
+		var msg = "welcome to angular13";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

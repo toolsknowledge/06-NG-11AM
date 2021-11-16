@@ -1,0 +1,23 @@
+<script>
+    "use strict";
+    data=100;
+    console.log(data);     //syntax error           //Uncaught ReferenceError: data is not defined
+</script>
+
+<script>
+    console.log( 
+        Array.from("abc658975123256de").filter((element,index)=>{
+            return element.match(/[0-9]/);
+        }).sort((arg1,arg2)=>{
+            return arg1-arg2;
+        })[1] 
+    );
+
+    console.log( 
+        Array.from("abc658975123256de").filter((element,index)=>{
+            return element.match(/[0-9]/);
+        }).sort((arg1,arg2)=>{
+            return arg2-arg1;
+        })[1] 
+    );
+</script>
