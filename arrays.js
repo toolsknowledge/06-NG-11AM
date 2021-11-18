@@ -22,6 +22,8 @@
     console.log( arr[9] );                                  //undefined
 */
 
+
+
 /*
     let arr = [20,30,40];
     console.log( arr );                 //[ 20, 30, 40 ]
@@ -157,12 +159,112 @@ console.log(arr3);          //[1,2,3,4,5,6,7,8,9,10]
 // console.log( arr.reverse() );
 
 
+/*
 let arr = [1,2,3,4,5];
 console.log( arr.fill(100) );                   //[ 100, 100, 100, 100, 100 ]
 console.log( arr.fill(200,1) );                 //[ 100, 200, 200, 200, 200 ]
 console.log( arr.fill(300,2,3));                //[ 100, 200, 300, 200, 200 ]
 console.log( arr.fill(400,3,4) );               //[ 100, 200, 300, 400, 200 ]
 console.log( arr.fill(500,4) );                 //[ 100, 200, 300, 400, 500 ]
+*/
+
+
+
+/*
+console.log(
+    [1,2,3,4,5].map((element,index)=>{
+        return element*100;
+    })
+);                  //[ 100, 200, 300, 400, 500 ]
+
+
+
+
+console.log(
+    [1000,2000,3000,4000,5000].map((element,index)=>{
+        return element/100;
+    })
+);                  //[ 10, 20, 30, 40, 50 ]                   
+
+
+
+console.log(
+    [1,2,3,4,5].map((element,index)=>{
+        return element == 1?element*100:element;
+    })
+);
+
+//[100,2,3,4,5]
+
+
+console.log(
+    [1,2,3,4,5,6,7].map((element,index)=>{
+        return index%2==0?element*100:element*1000   
+    })
+);
+
+//[100,2000,300,4000,500]
+
+
+
+
+
+console.log(
+    [1,2,3,4,5].filter((element,index)=>{
+        return element>=2;
+    })
+);              //[ 2, 3, 4, 5 ]
+
+
+
+
+console.log(
+    [1,2,3,4,5].map((element,index)=>{
+        return element*100;
+    }).filter((element,index)=>{
+        return element>=300;
+    })
+);          //[ 300, 400, 500 ]
+
+*/
+
+
+
+/*
+// 10   
+// [1,2,3,4,5,6,7,8,9,10]
+
+console.log(
+    [...Array(10).keys()].map((element,index)=>{
+        return element+1
+    })
+);
+
+*/
+
+//reduce()
+//[1,2,3,4,5] = 15
+console.log(
+    [1,2,3,4,5].reduce((firstElement,nextElement)=>{
+        return firstElement+nextElement;
+    })
+);          //15
+
+
+console.log(
+    [1,2,3,4,5].map((element,index)=>{
+        return element*100
+    }).filter((element,index)=>{
+        return element>=300;
+    }).reduce((arg1,arg2)=>{
+        return arg1+arg2;
+    })
+);              //1200
+
+
+
+
+
 
 
 
