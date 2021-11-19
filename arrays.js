@@ -242,24 +242,216 @@ console.log(
 
 */
 
-//reduce()
-//[1,2,3,4,5] = 15
-console.log(
-    [1,2,3,4,5].reduce((firstElement,nextElement)=>{
-        return firstElement+nextElement;
+
+/*
+    //reduce()
+    //[1,2,3,4,5] = 15
+    console.log(
+        [1,2,3,4,5].reduce((firstElement,nextElement)=>{
+            return firstElement+nextElement;
+        })
+    );          //15
+
+
+    console.log(
+        [1,2,3,4,5].map((element,index)=>{
+            return element*100
+        }).filter((element,index)=>{
+            return element>=300;
+        }).reduce((arg1,arg2)=>{
+            return arg1+arg2;
+        })
+    );              //1200
+*/
+
+/*
+    //sort
+    //arrange the data either ascending order or decending order
+    console.log(
+        [1,5,2,4,3].sort((arg1,arg2)=>{
+            return arg1-arg2;
+        })
+    );              //[ 1, 2, 3, 4, 5 ]
+
+
+    console.log(
+        [1,5,2,4,3].sort((arg1,arg2)=>{
+            return arg2-arg1;
+        })
+    );          //[ 5, 4, 3, 2, 1 ]
+
+
+    //2nd min element
+    console.log(
+        [10,5,6,11,13].sort((arg1,arg2)=>{
+            return arg1-arg2;
+        })[1]
+    );                  //6
+
+
+    //2nd max element
+    console.log(
+        [10,7,21,13,5].sort((arg1,arg2)=>{
+            return arg2-arg1;
+        })[1]
+    );                  //13
+*/
+
+/*
+    //indexOf()
+    //won't create indexes to repeated elements
+    let arr = [1,2,3,1,2,3];
+    arr.forEach((element,index)=>{
+        console.log(arr.indexOf(element));
+    });   //0 1 2 0 1 2
+
+
+    let arr1 = [10,20,10,20,10,30,40,10,50];
+    arr1.forEach((element,index)=>{
+        console.log( arr1.indexOf(element), index )
+    });
+
+
+    //0 1 0 1 0 5 6 0 8
+
+    //index -  0 1 2 3 4 5 6 7
+
+
+    let arr2 = [0,1,2,0,1,2];
+    arr2.forEach((element,index)=>{
+        console.log(arr2.indexOf(element));
+        console.log(index);
     })
-);          //15
+
+    let arr3 = [10,30,20,10,30];
+    console.log(
+        arr3.filter((element,index)=>{
+            return arr3.indexOf(element)==index;
+        })
+    );              //[ 10, 30, 20 ]
+*/
+
+
+/*
+    console.log(
+        " Hello ".trim().length
+    );              //5
+
+    console.log(
+        " Hello ".trimStart().length
+    );          //6
+
+
+    console.log(
+        " Hello ".trimEnd().length
+    );          //6
+*/
+
+
+/*
+    console.log(
+        "Hello".padStart(10,"*")
+    );              //*****Hello
+
+
+    console.log(
+        "Hello".padEnd(10,"*")
+    );              //Hello*****
+
+
+    console.log(
+        "Hello".padStart(10,"#").padEnd(15,"#")
+    );          //#####Hello#####
+*/
 
 
 console.log(
-    [1,2,3,4,5].map((element,index)=>{
-        return element*100
-    }).filter((element,index)=>{
-        return element>=300;
-    }).reduce((arg1,arg2)=>{
-        return arg1+arg2;
+    [10,20,30,40,50].some((element,index)=>{
+        return element<=10;
     })
-);              //1200
+);  
+
+console.log(
+    [10,20,30,40,50].every((element,index)=>{
+        return element<=50;
+    })
+);          //true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
