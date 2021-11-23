@@ -280,6 +280,192 @@ Variables
 	Ex.
 		var msg = "welcome to angular13";
 
+TypeScript
+**********
+	TypeScript is the "Programming" Language.
+
+	TypeScript Released by "Microsoft".
+
+	TypeScript is the "Programming" Language.
+
+	TypeScript follows the OOPS.
+
+		Ex.
+			inheritance
+
+			polymorphsim
+
+			encapsulation
+
+			abstraction
+
+	TypeScript used to build the Angular,React,Node,VueJS,.......
+
+	we will save the TypeScript files with ".ts" extension
+
+	Visual Studio Code is Suggestable IDE to Build the TypeScript Applications
+
+	Visual Studio Code also called as "VSCode"
+
+	VSCode IDE Given by "Microsoft" and open "source" IDE.
+
+	In General, browsers won't understand TypeScript.
+
+	So, we need to convert TypeScript to Equalent JavaScript.
+
+	conversion of TypeScript to Equalent javascript called as Transpilation
+
+	"tsc" is the tool, used to perform the Transpilation.
+
+	"tsc" stands for TypeScript Compiler.
+
+
+Software Installation
+*********************
+
+	> npm install -g typescript
+
+
+	- npm stands for "node packaging manager"
+
+	- npm present in "NodeJS"
+
+	- "-g" stands for "global Installation"
+
+
+Transpilation
+*************
+
+	> tsc demo.ts
+		o/p
+
+	demo.js
+
+	> node demo.js
+
+
+variables
+*********
+	variables are used to store the data
+
+	ex.
+		string, number, boolean, objects, arrays,........
+
+
+	variables we will declare with the help of "var", "let" or "const" keyword
+
+	let and const keywords introduced in "ES6" / "ES2015"
+
+	variables should contain a-z, A-Z, 0-9, $ and _
+
+	variables should not start with "digits"
+
+Syntax
+******
+	let variablename:datatype = value;
+
+Ex.
+	let msg:string = "welcome to typescript";
+	console.log(msg);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
