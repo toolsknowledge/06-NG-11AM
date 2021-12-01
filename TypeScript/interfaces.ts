@@ -102,7 +102,7 @@
     console.log( obj.var_one, obj.var_two, obj.var_three );
 */
 
-
+/*
 interface Parent1{
     var_one:string;
 };
@@ -118,6 +118,108 @@ let obj:Child = {
     var_three : "Hello_3"
 };
 console.log( obj.var_one, obj.var_two, obj.var_three );
+*/
+
+
+/*
+interface Parent{
+    var_one:string;
+}
+
+interface Child1 extends Parent{
+    var_two:string;
+};
+
+interface Child2 extends Parent{
+    var_two:string;
+};
+
+interface Child3 extends Parent{
+    var_two:string;
+};
+
+let obj1:Child1 = {
+    var_one : "Hello_1",
+    var_two : "Hello_2"
+};
+console.log( obj1.var_one, obj1.var_two );
+
+
+let obj2:Child2 = {
+    var_one : "Hello_3",
+    var_two : "Hello_4"
+};
+console.log( obj2.var_one, obj2.var_two );
+
+
+let obj3:Child3 = {
+    var_one : "Hello_5",
+    var_two : "Hello_6"
+}
+console.log( obj3.var_one, obj3.var_two );
+*/
+
+interface Parent{
+    var_one:string;
+}
+
+interface Child1 extends Parent{
+    var_two:string;
+};
+
+interface Child2 extends Parent{
+    var_three:string;
+};
+
+interface SubChild extends Child1,Child2{
+    var_four:string;
+};
+
+class class_one implements SubChild{
+    var_one:string = "Hello_1";
+    var_two:string = "Hello_2";
+    var_three:string = "Hello_3";
+    var_four:string = "Hello_4";
+}
+
+let obj:class_one = new class_one();
+console.log( obj.var_one, obj.var_two, obj.var_three, obj.var_four );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

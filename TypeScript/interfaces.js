@@ -4,9 +4,14 @@
 ;
 ;
 ;
-var obj = {
-    var_one: "Hello_1",
-    var_two: "Hello_2",
-    var_three: "Hello_3"
-};
-console.log(obj.var_one, obj.var_two, obj.var_three);
+var class_one = /** @class */ (function () {
+    function class_one() {
+        this.var_one = "Hello_1";
+        this.var_two = "Hello_2";
+        this.var_three = "Hello_3";
+        this.var_four = "Hello_4";
+    }
+    return class_one;
+}());
+var obj = new class_one();
+console.log(obj.var_one, obj.var_two, obj.var_three, obj.var_four);
